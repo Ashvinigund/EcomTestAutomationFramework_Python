@@ -37,8 +37,6 @@ class Testcheckoutprocess(BaseTest):
         # Navigate to cart and ensure it is empty
         home_page.do_click_cart()
 
-        # Optionally, you may need to perform some actions to simulate an empty cart
-        # For example, remove items from the cart if necessary
 
         # Click Place Order
         checkout_process.click_place_order()
